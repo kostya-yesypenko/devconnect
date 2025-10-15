@@ -36,24 +36,24 @@ DevConnect is a full-stack social platform built with **Node.js, Express, MongoD
 
 ### Backend
 
-cd backend
-npm install
-cp .env.example .env
+- cd backend
+- npm install
+- cp .env.example .env
 # update .env with your MongoDB URI and JWT secret
-npm run dev
+- npm run dev
 
 
 ### Frontend
 
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 # App will be available at http://localhost:3000
 
 ### Create a .env file in backend with:
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-PORT=5000
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_jwt_secret
+- PORT=5000
 
 📝 Notes
 This project is for learning purposes.
