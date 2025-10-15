@@ -2,7 +2,6 @@
 
 DevConnect is a full-stack social platform built with **Node.js, Express, MongoDB** for the backend and **Next.js + React** for the frontend. Users can register, log in, create posts, and manage their account settings. Admins have additional controls to manage users.
 
----
 
 ## 🚀 Features
 
@@ -24,31 +23,6 @@ DevConnect is a full-stack social platform built with **Node.js, Express, MongoD
 - Role-based access control
 - Frontend & backend separated in one repository
 
----
-
-## 🏗️ Project Structure
-
-
-
-devconnect/
-├─ backend/ # Express server & MongoDB models
-│ ├─ src/
-│ │ ├─ config/ # DB config
-│ │ ├─ middleware/ # auth & admin middleware
-│ │ ├─ models/ # User & Post schemas
-│ │ └─ routes/ # auth, posts, admin routes
-│ └─ package.json
-├─ frontend/ # Next.js React app
-│ ├─ pages/
-│ ├─ components/
-│ └─ package.json
-├─ .gitignore
-└─ README.md
-
-
-
-
----
 
 ## ⚡ Technologies
 
